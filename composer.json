@@ -1,0 +1,16 @@
+{
+  "require": {
+    "mockery/mockery": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+      "main.php",
+      "Foo.php",
+      "index.php",
+      "DependencyContainer.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
